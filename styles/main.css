@@ -129,4 +129,41 @@ body {
   font-size: 18px;
   padding: 5px;
   color: #6efd0f;
+}
+.main .main__car {
+  width: 600px;
+  height: auto;
+  padding: 20px;
+  box-sizing: border-box;
+  position: fixed;
+  right: 50%;
+  top: 100px;
+  box-shadow: -8px -6px 20px 1px #505050;
+}
+.main .main__car h2 {
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  color: #000000;
+  box-shadow: inset -8px -6px 20px 1px #505050;
+  padding: 20px 0;
+  box-sizing: border-box;
+}
+.main .main__car .main__obj {
+  border-bottom: 1px solid #66ff00;
+  border-top: 1px solid #66ff00;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  box-sizing: border-box;
+}
+.main .main__car .main__obj i, .main .main__car .main__obj img {
+  width: 60px;
+}
+.main .main__car .main__obj p, .main .main__car .main__obj h3 {
+  font-weight: 600;
+  font-size: 20px;
 }/*# sourceMappingURL=main.css.map */

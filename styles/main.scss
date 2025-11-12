@@ -40,8 +40,7 @@ body {
 }
 // ---------HEADER
 
-// ---------ASIDE
-
+// ---------ASIDE (1)
 .aside {
     width: 100%;
     padding: 15px 0px;
@@ -121,6 +120,7 @@ body {
 }
 // ---------ASIDE
 
+// ---------MAIN
 .main {
     img {
         width: 100px;
@@ -157,6 +157,49 @@ body {
                 font-size: 18px;
                 padding: 5px;
                 color: #6efd0f;
+            }
+        }
+    }
+
+    .main__car {
+        width: 600px;
+        height: auto;
+        // background-color: #a7ce8e;
+        // border: 2px groove #6efd0f;
+        padding: 20px;
+        box-sizing: border-box;
+        //*modifier
+        position: fixed;
+        right: 50%; //*
+        top: 100px; //*
+        box-shadow: -8px -6px 20px 1px #505050;
+
+        h2 {
+            width: 100%;
+            text-align: center;
+            font-size: 30px;
+            font-weight: 600;
+            color: #000000;
+            box-shadow: inset -8px -6px 20px 1px #505050;
+            padding: 20px 0;
+            box-sizing: border-box;
+        }
+
+        .main__obj {
+            border-bottom: 1px solid #66ff00;
+            border-top: 1px solid #66ff00;
+            padding: 5px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px;
+            box-sizing: border-box;
+
+            i, img { width: 60px;}
+
+            p, h3 { 
+                font-weight: 600;
+                font-size: 20px;
             }
         }
     }
